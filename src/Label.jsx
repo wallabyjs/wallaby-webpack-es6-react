@@ -1,7 +1,4 @@
 import React from 'react';
-import Flux from 'flux';
-
-console.log(Flux);
 
 let Label = React.createClass({
   render: function () {
