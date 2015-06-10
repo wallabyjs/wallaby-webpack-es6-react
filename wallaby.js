@@ -18,8 +18,10 @@ module.exports = function (wallaby) {
 
   return {
     files: [
+      // you may just add the file separately,
+      // like done here https://github.com/wallabyjs/wallaby-react-todomvc-sample/blob/master/wallaby-babel.js
       {pattern: 'node_modules/react-tools/src/test/phantomjs-shims.js', instrument: false},
-      {pattern: 'node_modules/react/dist/react-with-addons.js', instrument: false},
+
       {pattern: 'src/**/*.js*', load: false}
     ],
 
@@ -35,8 +37,6 @@ module.exports = function (wallaby) {
 
     bootstrap: function () {
       window.__moduleBundler.loadTests();
-    },
-
-    debug: true
+    }
   };
 };

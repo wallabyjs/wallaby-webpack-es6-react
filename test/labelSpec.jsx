@@ -1,3 +1,4 @@
+import React from 'react';
 import TestUtils from 'react/lib/ReactTestUtils'
 import Label from '../src/label'
 
