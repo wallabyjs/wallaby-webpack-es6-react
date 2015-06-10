@@ -1,0 +1,32 @@
+{
+  "name": "wallaby-webpack-es6-react",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wallabyjs/wallaby-webpack-es6-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallabyjs/wallaby-webpack-es6-react/issues"
+  },
+  "homepage": "https://github.com/wallabyjs/wallaby-webpack-es6-react",
+  "devDependencies": {
+    "babel": "^5.5.6",
+    "node-libs-browser": "^0.5.2",
+    "react-tools": "^0.13.3",
+    "wallaby-webpack": "0.0.5",
+    "webpack": "^1.9.10"
+  },
+  "dependencies": {
+    "flux": "^2.0.3",
+    "react": "^0.13.3"
+  }
+}
