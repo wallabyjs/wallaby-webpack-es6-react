@@ -21,7 +21,7 @@
   "devDependencies": {
     "babel": "^5.5.6",
     "react-tools": "^0.13.3",
-    "wallaby-webpack": "0.0.5",
+    "wallaby-webpack": "0.0.7",
     "webpack": "^1.9.10"
   },
   "dependencies": {
