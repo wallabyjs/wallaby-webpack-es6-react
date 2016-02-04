@@ -23,7 +23,7 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "phantomjs-polyfill": "^0.0.1",
-    "wallaby-webpack": "^0.0.11",
+    "wallaby-webpack": "*",
     "webpack": "^1.9.10"
   },
   "dependencies": {
