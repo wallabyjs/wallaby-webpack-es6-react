@@ -16,10 +16,7 @@ module.exports = function (wallaby) {
 
   return {
     files: [
-      // not required if using PhantomJs2 - http://wallabyjs.com/docs/integration/phantomjs2.html
-      {pattern: 'node_modules/phantomjs-polyfill/bind-polyfill.js', instrument: false},
       {pattern: 'node_modules/react/dist/react-with-addons.js', instrument: false},
-
       {pattern: 'src/**/*.js*', load: false}
     ],
 
