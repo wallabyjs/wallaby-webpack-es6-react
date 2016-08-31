@@ -30,7 +30,7 @@ module.exports = function (wallaby) {
 
     postprocessor: webpackPostprocessor,
 
-    bootstrap: function () {
+    setup: function () {
       window.__moduleBundler.loadTests();
     }
   };
