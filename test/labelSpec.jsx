@@ -1,12 +1,12 @@
 import React from 'react';
-import TestUtils from 'react/lib/ReactTestUtils'
+import ReactTestUtils from 'react-dom/test-utils';
 import Label from '../src/Label'
 
 describe('Label', function () {
 
   it('should not be undefined', function () {
-    var Component = TestUtils.renderIntoDocument(<Label />);
-    var element = TestUtils.findRenderedDOMComponentWithTag(Component, 'div');
+    var Component = ReactTestUtils.renderIntoDocument(<Label />);
+    var element = ReactTestUtils.findRenderedDOMComponentWithTag(Component, 'div');
     expect(element).toBeTruthy();
   });
 

@@ -4,19 +4,13 @@ module.exports = function (wallaby) {
 
   var webpackPostprocessor = wallabyWebpack({
     // webpack options
-
-    externals: {
-      // Use external version of React instead of rebuilding it
-      "react": "React"
-    },
     resolve: {
-      extensions: ['', '.js', '.jsx']
+      extensions: ['.js', '.jsx']
     }
   });
 
   return {
     files: [
-      {pattern: 'node_modules/react/dist/react-with-addons.js', instrument: false},
       {pattern: 'src/**/*.js*', load: false}
     ],
 
