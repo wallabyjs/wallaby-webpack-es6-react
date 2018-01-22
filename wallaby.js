@@ -22,6 +22,8 @@ module.exports = function (wallaby) {
       '**/*.js*': wallaby.compilers.babel()
     },
 
+    env: {kind: 'chrome'},
+
     postprocessor: webpackPostprocessor,
 
     setup: function () {
